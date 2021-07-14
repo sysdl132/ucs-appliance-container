@@ -1,4 +1,4 @@
-ARG IMAGE=univention-corporate-server-debootstrap
+ARG IMAGE=univention/univention-corporate-server-debootstrap
 ARG TAG=latest
 FROM ${IMAGE}:${TAG}
 
